@@ -19,8 +19,11 @@ It will take around 10-15 min. to create EKS cluster
 Connect Eks Cluster to your local system after installing aws cli and kubectl utility
 to connect to EKS Cluster
 "aws eks update-kubeconfig --name cluster_name --region region_name"
-## Install Helm  :-  curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
-Run command  helm create node-backend 
+## Install Helm  :-
+curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
+
+## Run command 
+helm create node-backend 
 Make the necessary changes
 upgrade the Helm chart
 helm upgrade --install backend-app ./backend-app --namespace default
