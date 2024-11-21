@@ -1,7 +1,10 @@
 # project-node-crud
 Application is UP on http://107.23.253.31:3000/api/main
+
 Prometheus is UP on http://107.23.253.31:9090
+
 AlertManager is UP on http://107.23.253.31:9093
+
 Clone the Repository on your local system make sure to install all the dependencies like node, mongo, docker, docker-compose, prometheus, alertmanager
 after cloning the Repository 
 run Command 
@@ -9,9 +12,9 @@ docker-compose up -d --build ( the application will start running on your local 
 ## The application will now up on your local system
 ## I have Created the EKS Cluster With Terraform. This is the Repository https://github.com/kanhaumath/eks-terraform.git
 ## After Cloning the above Repository Run Following Commands":
-## terraform init
-## terraform plan
-## terraform apply
+ terraform init
+ terraform plan
+ terraform apply
 It will take around 10-15 min. to create EKS cluster
 Connect Eks Cluster to your local system after installing aws cli and kubectl utility
 to connect to EKS Cluster
