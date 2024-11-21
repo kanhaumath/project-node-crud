@@ -12,14 +12,21 @@ docker-compose up -d --build ( the application will start running on your local 
 ## The application will now up on your local system
 ## I have Created the EKS Cluster With Terraform. This is the Repository https://github.com/kanhaumath/eks-terraform.git
 ## After Cloning the above Repository Run Following Commands":
+
  terraform init
+ 
  terraform plan
+ 
  terraform apply
+ 
 It will take around 10-15 min. to create EKS cluster
 Connect Eks Cluster to your local system after installing aws cli and kubectl utility
 to connect to EKS Cluster
+
 "aws eks update-kubeconfig --name cluster_name --region region_name"
+
 ## Install Helm  :-
+
 curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 ## Run command 
