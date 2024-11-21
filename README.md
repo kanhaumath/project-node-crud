@@ -24,10 +24,15 @@ curl https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3 | bash
 
 ## Run command 
 helm create node-backend 
+
 Make the necessary changes
+
 upgrade the Helm chart
+
 helm upgrade --install backend-app ./backend-app --namespace default
+
 Verify Deployment
+
 kubectl get pods
 ![image](https://github.com/user-attachments/assets/4086e335-d34e-457e-ac75-08e8bcf5d2a4)
 
